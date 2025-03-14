@@ -1,7 +1,7 @@
 <!-- Start header -->
 <header id="header">
             <!-- end topbar -->
-            <div class="wpo-site-header">
+            <div class="wpo-site-header" style="background: #7665FF;">
                 <nav class="navigation navbar navbar-expand-lg navbar-light">
                     <div class="container">
                         <div class="row align-items-center">
@@ -30,22 +30,28 @@
                                         </li>
                                         <li><a href="{{route('about.us')}}">About Us</a></li>
                                         <li class="menu-item-has-children">
-                                            <a href="#">Services</a>
+                                            <a href="{{route('service')}}">Services</a>
                                             <ul class="sub-menu">
-                                                <li><a href="service.html">Service</a></li>
-                                                <li><a href="service-single.html">Service Single</a></li>
+                                                <li><a href="{{route('web.design')}}">Website Design</a></li>
+                                                <li><a href="{{route('web.development')}}">Website Development</a></li>
+                                                <li><a href="{{route('cms')}}">CMS</a></li>
+                                                <li><a href="{{route('ecommerce')}}">E-Commerce</a></li>
+                                                <li><a href="{{route('uiUx')}}">UI/UX</a></li>
+                                                <li><a href="{{route('wordpress.development')}}">Wordpress Development</a></li>
+                                                <li><a href="{{route('website.redesign')}}">Website Redesign</a></li>
+                                                <li><a href="{{route('website.maintenance')}}">Website Maintenance</a></li>
                                             </ul>
                                         </li>
-                                        <li class="menu-item-has-children">
+                                        <!-- <li class="menu-item-has-children">
                                             <a href="#">Projects</a>
                                             <ul class="sub-menu">
                                                 <li><a href="project.html">Project</a></li>
                                                 <li><a href="project-single.html">Project Single</a></li>
                                             </ul>
-                                        </li>
+                                        </li> -->
                                         <li class="menu-item-has-children">
-                                            <a href="#">Pages</a>
-                                            <ul class="sub-menu">
+                                            <a href="{{route('pricing')}}">Pricing</a>
+                                            <!-- <ul class="sub-menu">
                                                 <li><a href="pricing.html">Pricing</a></li>
                                                 <li><a href="shop.html">Shop</a></li>
                                                 <li><a href="shop-single.html">Shop Single</a></li>
@@ -56,9 +62,9 @@
                                                 <li><a href="testimonial.html">Testimonial</a></li>
                                                 <li><a href="404.html">404 Error</a></li>
                                                 <li><a href="faq.html">FAQ</a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
-                                        <li class="menu-item-has-children">
+                                        <!-- <li class="menu-item-has-children">
                                             <a href="#">Blog</a>
                                             <ul class="sub-menu">
                                                 <li><a href="blog.html">Blog right sidebar</a></li>
@@ -76,31 +82,16 @@
                                                     </ul>
                                                 </li>
                                             </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        </li> -->
+                                        <li><a href="{{route('project')}}">Project</a></li>
+                                        <li><a href="{{route('contact')}}">Contact</a></li>
                                     </ul>
                                 </div><!-- end of nav-collapse -->
                             </div>
                             <div class="col-lg-3 col-md-4 col-1">
                                 <div class="header-right">
-                                    <div class="header-search-form-wrapper">
-                                        <div class="cart-search-contact">
-                                            <button class="search-toggle-btn"><i
-                                                    class="fi flaticon-search"></i></button>
-                                            <div class="header-search-form">
-                                                <form>
-                                                    <div>
-                                                        <input type="text" class="form-control"
-                                                            placeholder="Search here...">
-                                                        <button type="submit"><i
-                                                                class="fi flaticon-search"></i></button>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
                                     <div class="close-form">
-                                        <a class="theme-btn" href="contact.html">Conact Us</a>
+                                        <a class="theme-btn" href="{{route('contact')}}">Conact Us</a>
                                     </div>
                                 </div>
                             </div>
