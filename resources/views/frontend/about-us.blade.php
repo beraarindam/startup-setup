@@ -167,7 +167,7 @@
             <path d="M6.21538 35L65.2615 0L101 79.3333L0 84L6.21538 35Z" />
         </svg>
     </div>
-</section>
+</section>  
 <!-- end technut-service-section -->
 
 <!-- start technut-cta-section -->
