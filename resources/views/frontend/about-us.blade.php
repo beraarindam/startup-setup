@@ -9,7 +9,7 @@
                 <div class="wpo-breadcumb-wrap">
                     <h2>About Us</h2>
                     <ol class="wpo-breadcumb-wrap">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="{{route('index')}}">Home</a></li>
                         <li>About Us</li>
                     </ol>
                 </div>
@@ -62,7 +62,6 @@
                                 <p>Lorem Ipsum has been the industry's standard dummy text.</p>
                             </div>
                         </div>
-                        <a href="about.html" class="theme-btn-s4">Our about<i class="fi flaticon-right-arrow-1"></i></a>
                     </div>
                 </div>
             </div>
@@ -93,11 +92,11 @@
                             <img src="assets/images/service/Icon-1.svg" alt="">
                         </div>
                         <div class="text">
-                            <h2>IT Management</h2>
+                            <h2>Website Design</h2>
                             <p>Lorem Ipsum has been the industry's standard dummy text ever since the printer.
                             </p>
                         </div>
-                        <a href="service-single.html" class="theme-btn-s3">Details</a>
+                        <a href="{{route('web.design')}}" class="theme-btn-s3">Details</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
@@ -109,11 +108,11 @@
                             <img src="assets/images/service/Icon-2.svg" alt="">
                         </div>
                         <div class="text">
-                            <h2>Cyber Security</h2>
+                            <h2>Web Development</h2>
                             <p>Lorem Ipsum has been the industry's standard dummy text ever since the printer.
                             </p>
                         </div>
-                        <a href="service-single.html" class="theme-btn-s3">Details</a>
+                        <a href="{{route('web.development')}}" class="theme-btn-s3">Details</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
@@ -125,11 +124,11 @@
                             <img src="assets/images/service/Icon-3.svg" alt="">
                         </div>
                         <div class="text">
-                            <h2>Web Development</h2>
+                            <h2>E-Commerce</h2>
                             <p>Lorem Ipsum has been the industry's standard dummy text ever since the printer.
                             </p>
                         </div>
-                        <a href="service-single.html" class="theme-btn-s3">Details</a>
+                        <a href="{{route('ecommerce')}}" class="theme-btn-s3">Details</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
@@ -141,18 +140,18 @@
                             <img src="assets/images/service/Icon-4.svg" alt="">
                         </div>
                         <div class="text">
-                            <h2>Data Security</h2>
+                            <h2>CMS</h2>
                             <p>Lorem Ipsum has been the industry's standard dummy text ever since the printer.
                             </p>
                         </div>
-                        <a href="service-single.html" class="theme-btn-s3">Details</a>
+                        <a href="{{route('cms')}}" class="theme-btn-s3">Details</a>
                     </div>
                 </div>
             </div>
             <div class="service-view-more">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-12">
-                        <a href="service.html" class="theme-btn-s4">View More<i
+                        <a href="{{route('service')}}" class="theme-btn-s4">View More<i
                                 class="fi flaticon-right-arrow-1"></i></a>
                     </div>
                 </div>
@@ -182,7 +181,7 @@
             </div>
             <div class="col-lg-3 col-12">
                 <div class="technut-cta-right">
-                    <a href="service.html" class="theme-btn-s4">Contact Us<i class="fi flaticon-right-arrow-1"></i></a>
+                    <a href="{{route('contact')}}" class="theme-btn-s4">Contact Us<i class="fi flaticon-right-arrow-1"></i></a>
                 </div>
             </div>
         </div>

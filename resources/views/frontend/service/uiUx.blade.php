@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Website Design')
+@section('title', 'UI/UX')
 @section('content')
 <!-- start wpo-page-title -->
 <section class="wpo-page-title">
@@ -7,11 +7,11 @@
         <div class="row">
             <div class="col col-xs-12">
                 <div class="wpo-breadcumb-wrap">
-                    <h2>Website Design</h2>
+                    <h2>UI/UX</h2>
                     <ol class="wpo-breadcumb-wrap">
                         <li><a href="{{ route('index') }}">Home</a></li>
                         <li><a href="{{ route('service') }}">Service</a></li>
-                        <li>Website Design</li>
+                        <li>UI/UX</li>
                     </ol>
                 </div>
             </div>
@@ -138,10 +138,10 @@
                     <div class="widget category-widget">
                         <h3>Other Service</h3>
                         <ul>
+                            <li><a href="{{route('web.design')}}">Website Design</a></li>
                             <li><a href="{{route('web.development')}}">Website Development</a></li>
                             <li><a href="{{route('cms')}}">CMS</a></li>
                             <li><a href="{{route('ecommerce')}}">E-Commerce</a></li>
-                            <li><a href="{{route('uiUx')}}">UI/UX</a></li>
                             <li><a href="{{route('wordpress.development')}}">Wordpress Development</a></li>
                             <li><a href="{{route('website.redesign')}}">Website Redesign</a></li>
                             <li><a href="{{route('website.maintenance')}}">Website Maintenance</a></li>

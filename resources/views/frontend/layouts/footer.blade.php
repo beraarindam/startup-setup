@@ -50,11 +50,11 @@
                             <h3>quick links:</h3>
                         </div>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="blog.html">Blog Post</a></li>
-                            <li><a href="service.html">Service</a></li>
-                            <li><a href="team.html">Members</a></li>
-                            <li><a href="project.html">Project</a></li>
+                            <li><a href="{{route('index')}}">Home</a></li>
+                            <li><a href="{{route('about.us')}}">About Us</a></li>
+                            <li><a href="{{route('service')}}">Service</a></li>
+                            <li><a href="{{route('faq')}}">FAQ</a></li>
+                            <li><a href="{{route('contact')}}">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
         <div class="container">
             <div class="row">
                 <div class="col col-xs-12">
-                    <p class="copyright"> Copyright &copy; 2022 TechNut by <a href="index.html">wpOceans</a>.
+                    <p class="copyright"> Copyright &copy; <?php echo date('Y')?> TechNut by <a href="index.html">wpOceans</a>.
                         All
                         Rights Reserved.</p>
                 </div>
